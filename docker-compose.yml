@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  python-ml4t:
+    build: ./
+    image: luinstra/python-ml4t
+    container_name: python-ml4t
